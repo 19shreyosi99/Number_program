@@ -3,4 +3,4 @@ def factorial(n):
         return 1
     return n*factorial(n-1)
 n=int(input("Enter a Number"))
-print(factorial((n)))
+print(factorial(n))
